@@ -1,0 +1,782 @@
+{
+  "2025-11-01": {
+    "kahvalti": [
+      "BEYAZ PEYNİR(4)",
+      "SİYAH ZEYTİN/YEŞİL ZEYTİN",
+      "DOMATES/SALATALIK",
+      "ÖRGÜ PEYNİR (4)",
+      "VİŞNE REÇELİ (12)",
+      "SOSİS KIZARTMASI",
+      "SU BÖREĞİ(1,3,4)"
+    ],
+    "aksam": {
+      "ana_menu": [
+        "TARHANA ÇORBASI (1,3,4,8)",
+        "MANTARLI TAVUK SOTE (2,13)",
+        "SADE PİRİNÇ PİLAVI (1)",
+        "ŞEKERPARE (1,3,7,8,11)"
+      ],
+      "salatbar": [
+        "KIRMIZI LAHANA(12)",
+        "HAVUÇ TARATOR (3,4)",
+        "ÇOBAN SALATASI",
+        "DEREOTLU MISIRLI YEŞİL ZEYTİN SALATASI",
+        "DOM.SOSLU KARIŞIK KIZART. (BİBER-PATATES) (1)"
+      ]
+    }
+  },
+  "2025-11-02": {
+    "kahvalti": [
+      "BEYAZ PEYNİR(4)",
+      "SİYAH ZEYTİN/YEŞİL ZEYTİN",
+      "DOMATES/SALATALIK",
+      "TEREYAĞ(4)",
+      "BAL",
+      "HAŞLANMIŞ YUMURTA (3)",
+      "PATATES KIZARTMASI (1)"
+    ],
+    "aksam": {
+      "ana_menu": [
+        "ANADOLU ÇORBASI (1,3,4,8,10,11)",
+        "TAS KEBAP (1,8)",
+        "ARPA ŞEHRİYE PİLAVI (1)",
+        "MEYVE (MANDALİNA)"
+      ],
+      "salatbar": [
+        "YOĞURTLU BİBER BORANİ (4)",
+        "Z.YAĞLI PIRASA (1)",
+        "SUMAKLI SOĞAN",
+        "KARIŞIK TURŞU (12)",
+        "ŞAKŞUKA"
+      ]
+    }
+  },
+  "2025-11-03": {
+    "kahvalti": [
+      "BEYAZ PEYNİR(4)",
+      "SİYAH ZEYTİN/YEŞİL ZEYTİN",
+      "DOMATES/SALATALIK",
+      "PEYNİRLİ GÜL BÖREĞİ (1,3,4,14)",
+      "KAKAOLU FINDIK EZMESİ (1,4,8,11)",
+      "SALAM",
+      "SADE OMLET (3)"
+    ],
+    "aksam": {
+      "ana_menu": [
+        "EZOGELİN ÇORBA (1)",
+        "ISPANAK YEMEĞİ (1,3)",
+        "MANTI (1,3,4)",
+        "ŞÖBİYET (1,3,4,7,8,11)"
+      ],
+      "salatbar": [
+        "KÖZ SOGAN SALATASI",
+        "SÖĞÜŞ DİLİM (DOM-SALATALIK)",
+        "MAYDANOZLU KÖZLENMİŞ KIRMIZI BİBER SALATASI (12)",
+        "KIRMIZI LAHANA(12)",
+        "Z.YAĞLI BARBUNYA (1,8)"
+      ]
+    }
+  },
+  "2025-11-04": {
+    "kahvalti": [
+      "BEYAZ   PEYNİR(4)",
+      "SİYAH ZEYTİN/YEŞİL ZEYTİN",
+      "DOMATES/SALATALIK",
+      "KREM PEYNİR (4)",
+      "HELVA(1,4,14)",
+      "POĞAÇA(1,3,4,14)",
+      "KAŞARLI OMLET (3,4)"
+    ],
+    "aksam": {
+      "ana_menu": [
+        "ŞEHRİYE ÇORBASI (1)",
+        "PİDELİ KÖFTE (1,3,4)",
+        "KARIŞIK SEBZE BUKETİ (1,3,4,8)",
+        "GAZLI İÇECEK"
+      ],
+      "salatbar": [
+        "MAYDANOZLU KÖZLENMİŞ PATLICAN SALATASI (12)",
+        "GAVURDAĞI SALATASI (7,11)",
+        "SUMAKLI SOĞAN",
+        "PANCAR TURŞUSU (12)",
+        "HUMUS (1,8,14)"
+      ]
+    }
+  },
+  "2025-11-05": {
+    "kahvalti": [
+      "BEYAZ PEYNİR(4)",
+      "SİYAH ZEYTİN/YEŞİL ZEYTİN",
+      "DOMATES/SALATALIK",
+      "ÖRGÜ PEYNİR (4)",
+      "ÇİLEK REÇELİ (12)",
+      "PATATESLİ GÜL BÖREĞİ (1,3,4,14)",
+      "SOSİS KIZARTMASI"
+    ],
+    "aksam": {
+      "ana_menu": [
+        "DÜĞÜN ÇORBA (1,3,4,8)",
+        "FIRINDA GARNİTÜRLÜ TAVUK (8)",
+        "SADE BULGUR PİLAVI (1)",
+        "MEYVE (MUZ)"
+      ],
+      "salatbar": [
+        "HAYDARİ (4)",
+        "MAYDANOZLU KÖZLENMİŞ KIRMIZI BİBER SALATASI (12)",
+        "KIRMIZI LAHANA(12)",
+        "SÖĞÜŞ DİLİM (DOM-SALATALIK)",
+        "Z.YAĞLI ORBİT FASULYE (1,8)"
+      ]
+    }
+  },
+  "2025-11-06": {
+    "kahvalti": [
+      "BEYAZ   PEYNİR(4)",
+      "SİYAH ZEYTİN/YEŞİL ZEYTİN",
+      "DOMATES/SALATALIK",
+      "KAŞAR PEYNİR (4)",
+      "TEREYAĞ(4)",
+      "BAL",
+      "MENEMEN (3)"
+    ],
+    "aksam": {
+      "ana_menu": [
+        "DOMATES ÇORBASI (1,4)",
+        "ETLİ NOHUT  (1,8)",
+        "TEL ŞEHRİYELİ PİRİNÇ PİLAVI (1)",
+        "SARAY SARMASI(1,3,4,7,8,11)"
+      ],
+      "salatbar": [
+        "PEMBE SULTAN (4,12)",
+        "KÖZ SOGAN SALATASI",
+        "KORNİŞON TURŞU (12)",
+        "Z.YAĞLI KARNABAHAR (1,3,4,12)",
+        "ŞAKŞUKA"
+      ]
+    }
+  },
+  "2025-11-07": {
+    "kahvalti": [
+      "BEYAZ PEYNİR(4)",
+      "SİYAH ZEYTİN/YEŞİL ZEYTİN",
+      "DOMATES/SALATALIK",
+      "LABNE PEYNİR (4)",
+      "KAKAOLU FINDIK EZMESİ (1,4,8,11)",
+      "SOSLU SOSİS TAVA",
+      "SİMİT (1,3,4,14)"
+    ],
+    "aksam": {
+      "ana_menu": [
+        "TARHANA ÇORBASI (1,3,4,8)",
+        "SAÇ KAVURMA / LAVAŞ (1,3,4,8)",
+        "FIRIN MAKARNA (1,3,4)",
+        "AYRAN (4)"
+      ],
+      "salatbar": [
+        "SUMAKLI SOĞAN",
+        "KAŞIK SALATA",
+        "KARIŞIK TURŞU (12)",
+        "Z.YAĞLI PIRASA (1)",
+        "DOM. SOSLU PATATES KIZARTMASI (1)"
+      ]
+    }
+  },
+  "2025-11-08": {
+    "kahvalti": [
+      "BEYAZ   PEYNİR(4)",
+      "SİYAH ZEYTİN/YEŞİL ZEYTİN",
+      "DOMATES/SALATALIK",
+      "ÖRGÜ PEYNİR (4)",
+      "VİŞNE REÇELİ (12)",
+      "PATATES KIZARTMASI (1)",
+      "HAŞLANMIŞ YUMURTA (3)"
+    ],
+    "aksam": {
+      "ana_menu": [
+        "SEBZE ÇORBASI (1,3,4,8)",
+        "FIRINDA TAVUK BUT / PATATES KROKET (1,4)",
+        "ERİŞTE KAVURMA (1,3,4)",
+        "MEYVE (ARMUT)"
+      ],
+      "salatbar": [
+        "LEBENİ (1,4,8)",
+        "HAVUÇ",
+        "KIRMIZI LAHANA(12)",
+        "MAYDANOZLU KÖZLENMİŞ PATLICAN SALATASI (12)",
+        "DOM.SOSLU BİBER KIZART."
+      ]
+    }
+  },
+  "2025-11-09": {
+    "kahvalti": [
+      "BEYAZ PEYNİR(4)",
+      "SİYAH ZEYTİN/YEŞİL ZEYTİN",
+      "DOMATES/SALATALIK",
+      "KAŞAR PEYNİR (4)",
+      "TAHİN PEKMEZ (14)",
+      "AÇMA (1,3,4,14)",
+      "SUCUKLU YUMURTA (3)"
+    ],
+    "aksam": {
+      "ana_menu": [
+        "MERCİMEK ÇORBASI (1,8)",
+        "SEBZELİ KEBAP (1,3,4,8)",
+        "BEZELYELİ PİRİNÇ PİLAVI (1,8)",
+        "SÜTLÜ TATLI (1,3,4)"
+      ],
+      "salatbar": [
+        "YOĞURT (4)",
+        "SUMAKLI SOĞAN",
+        "MAYDANOZLU KÖZLENMİŞ KIRMIZI BİBER SALATASI (12)",
+        "KIRMIZI LAHANA(12)",
+        "ARPA ŞEHRİYE SALATASI (1,7,8,10,12)"
+      ]
+    }
+  },
+  "2025-11-10": {
+    "kahvalti": [
+      "BEYAZ PEYNİR(4)",
+      "SİYAH ZEYTİN/YEŞİL ZEYTİN",
+      "DOMATES/SALATALIK",
+      "KREM PEYNİR (4)",
+      "ÇİLEK REÇELİ (12)",
+      "TEREYAĞ(4)",
+      "KAŞARLI OMLET (3,4)"
+    ],
+    "aksam": {
+      "ana_menu": [
+        "MISIR ÇORBASI (1,4)",
+        "IZGARA TAVUK GÖĞÜS / RENKLİ BİBERLİ MANTAR KAVURMA (1,2,3,4,7,11,13)",
+        "SADE MAKARNA (1)",
+        "LİMONATA"
+      ],
+      "salatbar": [
+        "MÜCVER (1,3)",
+        "KIRMIZI LAHANA(12)",
+        "KARIŞIK TURŞU (12)",
+        "SÖĞÜŞ DİLİM DOMATES",
+        "AMERİKAN SALATASI (1,3,4,8,12)"
+      ]
+    }
+  },
+  "2025-11-11": {
+    "kahvalti": [
+      "BEYAZ PEYNİR(4)",
+      "SİYAH ZEYTİN/YEŞİL ZEYTİN",
+      "DOMATES/SALATALIK",
+      "ÖRGÜ PEYNİR (4)",
+      "KAKAOLU FINDIK EZMESİ (1,4,8,11)",
+      "SU BÖREĞİ(1,3,4)",
+      "SOSİS KIZARTMASI"
+    ],
+    "aksam": {
+      "ana_menu": [
+        "EZOGELİN ÇORBA (1,8)",
+        "HAMBURGER / ÇITIR PATATES (1,3,4,8,12,14)",
+        "HAVUÇ DİLİM BAKLAVA  (1,3,4,7,8,11)",
+        "GAZLI İÇECEK"
+      ],
+      "salatbar": [
+        "KÖZ SOGAN SALATASI",
+        "PEMBE SULTAN (4,12)",
+        "MAYDANOZLU KÖZLENMİŞ PATLICAN SALATASI (12)",
+        "DEREOTLU MISIRLI YEŞİL ZEYTİN SALATASI",
+        "PİYAZ (1,3,8,14)"
+      ]
+    }
+  },
+  "2025-11-12": {
+    "kahvalti": [
+      "BEYAZ PEYNİR(4)",
+      "SİYAH ZEYTİN/YEŞİL ZEYTİN",
+      "DOMATES/SALATALIK",
+      "LABNE PEYNİR (4)",
+      "HELVA(1,4,14)",
+      "POĞAÇA(1,3,4,14)",
+      "SUCUKLU YUMURTA (3)"
+    ],
+    "aksam": {
+      "ana_menu": [
+        "ŞEHRİYE ÇORBASI (1)",
+        "KIYMALI KARNABAHAR YEMEĞi (1,3,4,12)",
+        "NOHUTLU BULGUR PİLAVI (1,8)",
+        "MEYVE (MANDALİNA)"
+      ],
+      "salatbar": [
+        "YOĞURT (4)",
+        "ÇOBAN SALATASI",
+        "KARIŞIK TURŞU (12)",
+        "DOM.SOSLU BİBER KIZART.",
+        "MERCİMEK KÖFTE (1,8,12)"
+      ]
+    }
+  },
+  "2025-11-13": {
+    "kahvalti": [
+      "BEYAZ PEYNİR(4)",
+      "SİYAH ZEYTİN/YEŞİL ZEYTİN",
+      "DOMATES/SALATALIK",
+      "KAŞAR PEYNİR (4)",
+      "VİŞNE REÇELİ (12)",
+      "PATATES KIZARTMASI (1)",
+      "HAŞLANMIŞ YUMURTA (3)"
+    ],
+    "aksam": {
+      "ana_menu": [
+        "SEBZE ÇORBASI (1,3,4,8)",
+        "IZGARA KÖFTE /KÖZLENMİŞ KIRMIZI BİBER - FIRINDA ELMA DİLİM PATATES (1,3,4)",
+        "TEL ŞEHRİYELİ PİRİNÇ PİLAVI (1)",
+        "AYRAN (4)"
+      ],
+      "salatbar": [
+        "KIRMIZI LAHANA(12)",
+        "ŞAKŞUKA",
+        "SUMAKLI SOĞAN",
+        "SÖĞÜŞ DİLİM DOMATES",
+        "BAŞBAŞI SALATASI (1,7,8,10,11,12)"
+      ]
+    }
+  },
+  "2025-11-14": {
+    "kahvalti": [
+      "BEYAZ PEYNİR(4)",
+      "SİYAH ZEYTİN/YEŞİL ZEYTİN",
+      "DOMATES/SALATALIK",
+      "TEREYAĞ(4)",
+      "BAL",
+      "SOSLU SOSİS TAVA",
+      "SİMİT (1,3,4,14)"
+    ],
+    "aksam": {
+      "ana_menu": [
+        "MERCİMEK ÇORBASI (1,8)",
+        "FIRINDA SEBZELİ TAVUK BAGET (1,4)",
+        "SOSLU  SPAGETTİ (1)",
+        "SÜTLÜ TATLI (1,3,4)"
+      ],
+      "salatbar": [
+        "YOĞURTLU BİBER BORANİ (4)",
+        "PANCAR TURŞUSU (12)",
+        "GAVURDAĞI SALATASI (7,11)",
+        "KÖZ SOGAN SALATASI",
+        "Z.YAĞLI TAZE FASULYE (1,8)"
+      ]
+    }
+  },
+  "2025-11-15": {
+    "kahvalti": [
+      "BEYAZ PEYNİR(4)",
+      "SİYAH ZEYTİN/YEŞİL ZEYTİN",
+      "DOMATES/SALATALIK",
+      "ÖRGÜ PEYNİR (4)",
+      "TAHİN PEKMEZ (14)",
+      "SALAM",
+      "MENEMEN (3)"
+    ],
+    "aksam": {
+      "ana_menu": [
+        "DOMATES ÇORBASI (1,4)",
+        "HÜNKAR BEĞENDİ (1,3,4,7,11)",
+        "ARPA ŞEHRİYE PİLAVI (1)",
+        "MEYVE (ELMA)"
+      ],
+      "salatbar": [
+        "MAYDANOZLU KÖZLENMİŞ KIRMIZI BİBER SALATASI (12)",
+        "CACIK (4)",
+        "DEREOTLU MISIRLI YEŞİL ZEYTİN SALATASI",
+        "PATATES SALATASI (1,12)",
+        "HUMUS (1,8,14)"
+      ]
+    }
+  },
+  "2025-11-16": {
+    "kahvalti": [
+      "BEYAZ PEYNİR(4)",
+      "SİYAH ZEYTİN/YEŞİL ZEYTİN",
+      "DOMATES/SALATALIK",
+      "KAŞAR PEYNİR (4)",
+      "KAKAOLU FINDIK EZMESİ (1,4,8,11)",
+      "HAŞLANMIŞ YUMURTA (3)",
+      "PEYNİRLİ KALEM BÖREK(1,3,4)"
+    ],
+    "aksam": {
+      "ana_menu": [
+        "TAVUK ÇORBASI (1,3,4)",
+        "GEMİCİ USULÜ KURU FASULYE (1,8)",
+        "SADE PİRİNÇ PİLAVI (1)",
+        "TEL KADAYIF (1,3,4,11)"
+      ],
+      "salatbar": [
+        "HAYDARİ (4)",
+        "SUMAKLI SOĞAN",
+        "KARIŞIK TURŞU (12)",
+        "KIRMIZI LAHANA(12)",
+        "DOM.SOSLU KARIŞIK KIZART. (BİBER-PATATES) (1)"
+      ]
+    }
+  },
+  "2025-11-17": {
+    "kahvalti": [
+      "BEYAZ PEYNİR(4)",
+      "SİYAH ZEYTİN/YEŞİL ZEYTİN",
+      "DOMATES/SALATALIK",
+      "TEREYAĞ(4)",
+      "BAL",
+      "AÇMA (1,3,4,14)",
+      "SUCUKLU YUMURTA (3)"
+    ],
+    "aksam": {
+      "ana_menu": [
+        "ŞEHRİYE ÇORBASI (1)",
+        "PATATES PÜRELİ SOSLU BİFTEK (1,3,4)",
+        "BEZELYELİ BULGUR PİLAVI (1,8)",
+        "GAZLI İÇECEK"
+      ],
+      "salatbar": [
+        "KÖZ SOGAN SALATASI",
+        "MAYDANOZLU KÖZLENMİŞ KIRMIZI BİBER SALATASI (12)",
+        "SALATALIK TURŞUSU (12)",
+        "YOĞURT (4)",
+        "Z.YAĞLI PIRASA (1)"
+      ]
+    }
+  },
+  "2025-11-18": {
+    "kahvalti": [
+      "BEYAZ PEYNİR(4)",
+      "SİYAH ZEYTİN/YEŞİL ZEYTİN",
+      "DOMATES/SALATALIK",
+      "ÖRGÜ PEYNİR (4)",
+      "HELVA(1,4,14)",
+      "PATATES KIZARTMASI (1)",
+      "HAŞLANMIŞ YUMURTA (3)"
+    ],
+    "aksam": {
+      "ana_menu": [
+        "SEBZE ÇORBASI (1,3,4)",
+        "TAVUK KAVURMA",
+        "NOHUTLU PİRİNÇ PİLAVI (1,8)",
+        "MEYVE (MUZ)"
+      ],
+      "salatbar": [
+        "KIRMIZI LAHANA (12)",
+        "KARIŞIK TURŞU (12)",
+        "CACIK (4)",
+        "DOM.SOSLU BİBER KIZART.",
+        "PATATES SALATASI (1,12)"
+      ]
+    }
+  },
+  "2025-11-19": {
+    "kahvalti": [
+      "BEYAZ PEYNİR(4)",
+      "SİYAH ZEYTİN/YEŞİL ZEYTİN",
+      "DOMATES/SALATALIK",
+      "KAŞAR PEYNİR (4)",
+      "ÇİLEK REÇELİ (12)",
+      "TEREYAĞ(4)",
+      "MENEMEN (3)"
+    ],
+    "aksam": {
+      "ana_menu": [
+        "DÜĞÜN ÇORBA (1,3,4,8)",
+        "PATATESLİ HAVUÇLU BEZELYE YEMEĞİ (1,3,4,8)",
+        "ARPA ŞEHRİYE PİLAVI (1)",
+        "CEVİZLİ BAKLAVA (1,3,4,7,8,11)"
+      ],
+      "salatbar": [
+        "SUMAKLI SOĞAN",
+        "PANCAR TURŞUSU (12)",
+        "MAYDANOZLU KÖZLENMİŞ PATLICAN SALATASI (12)",
+        "HAYDARİ (4)",
+        "Z.YAĞLI ORBİT FASULYE (1,8)"
+      ]
+    }
+  },
+  "2025-11-20": {
+    "kahvalti": [
+      "BEYAZ PEYNİR(4)",
+      "SİYAH ZEYTİN/YEŞİL ZEYTİN",
+      "DOMATES/SALATALIK",
+      "KREM PEYNİR (4)",
+      "TAHİN PEKMEZ (14)",
+      "PATATESLİ GÜL BÖREĞİ (1,3,4,14)",
+      "SOSİS KIZARTMASI"
+    ],
+    "aksam": {
+      "ana_menu": [
+        "EZOGELİN ÇORBA (1,8)",
+        "ET DÖNER / FIRINLANMIŞ ELMA DİLİM PATATES (1,4)",
+        "SADE PİRİNÇ PİLAVI (1)",
+        "LİMONATA"
+      ],
+      "salatbar": [
+        "MAYDANOZLU KÖZLENMİŞ KIRMIZI BİBER SALATASI (12)",
+        "PİYAZ (1,3,8,14)",
+        "KIRMIZI LAHANA(12)",
+        "YOĞURT (4)",
+        "ŞAKŞUKA"
+      ]
+    }
+  },
+  "2025-11-21": {
+    "kahvalti": [
+      "BEYAZ PEYNİR(4)",
+      "SİYAH ZEYTİN/YEŞİL ZEYTİN",
+      "DOMATES/SALATALIK",
+      "ÖRGÜ PEYNİR (4)",
+      "HAŞLANMIŞ YUMURTA (3)",
+      "BAL",
+      "PEYNİRLİ KALEM BÖREK(1,3,4)"
+    ],
+    "aksam": {
+      "ana_menu": [
+        "TARHANA ÇORBASI (1,3,4,8)",
+        "PATLICAN BEĞENDİ YATAĞINDA PİLİÇ KÜLBASTI (1,3,4,7,11)",
+        "SOSLU  MAKARNA (1)",
+        "SÜTLÜ TATLI (1,3,4)"
+      ],
+      "salatbar": [
+        "KORNİŞON TURŞU (12)",
+        "Z.YAĞLI KARNABAHAR (1,3,4,12)",
+        "PEMBE SULTAN (4,12)",
+        "DEREOTLU MISIRLI YEŞİL ZEYTİN SALATASI",
+        "MERCİMEK KÖFTE (1,8,12)"
+      ]
+    }
+  },
+  "2025-11-22": {
+    "kahvalti": [
+      "BEYAZ PEYNİR(4)",
+      "SİYAH ZEYTİN/YEŞİL ZEYTİN",
+      "DOMATES/SALATALIK",
+      "LABNE PEYNİR (4)",
+      "KAKAOLU FINDIK EZMESİ (1,4,8,11)",
+      "SALAM",
+      "KAŞARLI OMLET (3,4)"
+    ],
+    "aksam": {
+      "ana_menu": [
+        "MERCİMEK ÇORBASI (1,8)",
+        "MANTARLI ET SOTE (2,13)",
+        "ERİŞTE KAVURMA (1,3,4)",
+        "MEYVE (PORTAKAL)"
+      ],
+      "salatbar": [
+        "KAŞIK SALATA",
+        "KIRMIZI LAHANA(12)",
+        "LEBENİ (1,4,8)",
+        "MAYDANOZLU KÖZLENMİŞ PATLICAN SALATASI (12)",
+        "DOM. SOSLU PATATES KIZARTMASI (1)"
+      ]
+    }
+  },
+  "2025-11-23": {
+    "kahvalti": [
+      "BEYAZ PEYNİR(4)",
+      "SİYAH ZEYTİN/YEŞİL ZEYTİN",
+      "DOMATES/SALATALIK",
+      "KAŞAR PEYNİR (4)",
+      "VİŞNE REÇELİ (12)",
+      "SİMİT (1,3,4,14)",
+      "SOSLU SOSİS TAVA"
+    ],
+    "aksam": {
+      "ana_menu": [
+        "DOMATES ÇORBASI (1,4)",
+        "ETLİ NOHUT  (1,8)",
+        "TEL ŞEHRİYELİ PİRİNÇ PİLAVI (1)",
+        "KEMALPAŞA TATLISI (1,3,4)"
+      ],
+      "salatbar": [
+        "KÖZ SOGAN SALATASI",
+        "KIRMIZI LAHANA(12)",
+        "HAYDARİ (4)",
+        "ARPA ŞEHRİYE SALATASI (1,7,8,10,12)",
+        "BİBER KIZARTMASI"
+      ]
+    }
+  },
+  "2025-11-24": {
+    "kahvalti": [
+      "BEYAZ PEYNİR(4)",
+      "SİYAH ZEYTİN/YEŞİL ZEYTİN",
+      "DOMATES/SALATALIK",
+      "ÖRGÜ PEYNİR (4)",
+      "TEREYAĞ(4)",
+      "BAL",
+      "MENEMEN (3)"
+    ],
+    "aksam": {
+      "ana_menu": [
+        "TARHANA ÇORBASI (1,3,4,8)",
+        "ET TANTUNİ / LAVAŞ (1,3,4,8)",
+        "FIRIN MAKARNA (1,3,4)",
+        "AYRAN (4)"
+      ],
+      "salatbar": [
+        "MAYDANOZLU KÖZLENMİŞ KIRMIZI BİBER SALATASI (12)",
+        "GAVURDAĞI SALATASI (7,11)",
+        "SUMAKLI SOĞAN",
+        "PANCAR TURŞUSU (12)",
+        "Z.YAĞLI PIRASA (1)"
+      ]
+    }
+  },
+  "2025-11-25": {
+    "kahvalti": [
+      "BEYAZ PEYNİR(4)",
+      "SİYAH ZEYTİN/YEŞİL ZEYTİN",
+      "DOMATES/SALATALIK",
+      "SU BÖREĞİ(1,3,4)",
+      "TAHİN PEKMEZ (14)",
+      "HAŞLANMIŞ YUMURTA (3)",
+      "SOSİS KIZARTMASI"
+    ],
+    "aksam": {
+      "ana_menu": [
+        "ŞEHRİYE ÇORBASI (1)",
+        "PATATES OTURTMA (1,4)",
+        "SADE BULGUR PİLAVI (1)",
+        "TAHİNLİ KABAK TATLISI (1,4,7,11,14)"
+      ],
+      "salatbar": [
+        "YOĞURTLU BİBER BORANİ (4)",
+        "MAYDANOZLU KÖZLENMİŞ PATLICAN SALATASI (12)",
+        "KARIŞIK TURŞU (12)",
+        "DEREOTLU MISIRLI YEŞİL ZEYTİN SALATASI",
+        "Z.YAĞLI KARNABAHAR (1,3,4,12)"
+      ]
+    }
+  },
+  "2025-11-26": {
+    "kahvalti": [
+      "BEYAZ PEYNİR(4)",
+      "SİYAH ZEYTİN/YEŞİL ZEYTİN",
+      "DOMATES/SALATALIK",
+      "KREM PEYNİR (4)",
+      "ÇİLEK REÇELİ (12)",
+      "SALAM",
+      "PEYNİRLİ KALEM BÖREK(1,3,4)"
+    ],
+    "aksam": {
+      "ana_menu": [
+        "SEBZE ÇORBASI (1,3,4)",
+        "NOHUTLU SULU KÖFTE (1,3,4,8)",
+        "ARPA ŞEHRİYE PİLAVI (1)",
+        "MEYVE (ELMA)"
+      ],
+      "salatbar": [
+        "ŞAKŞUKA",
+        "KÖZ SOGAN SALATASI",
+        "CACIK (4)",
+        "KIRMIZI LAHANA(12)",
+        "DOM. SOSLU PATATES KIZARTMASI (1)"
+      ]
+    }
+  },
+  "2025-11-27": {
+    "kahvalti": [
+      "BEYAZ PEYNİR(4)",
+      "SİYAH ZEYTİN/YEŞİL ZEYTİN",
+      "DOMATES/SALATALIK",
+      "KAŞAR PEYNİR (4)",
+      "KAKAOLU FINDIK EZMESİ (1,4,8,11)",
+      "POĞAÇA(1,3,4,14)",
+      "PEYNİRLİ OMLET (3,4)"
+    ],
+    "aksam": {
+      "ana_menu": [
+        "MISIR ÇORBASI (1,4)",
+        "YEŞİL VE KAPYA BİBERLİ TAVUK SOTE",
+        "SADE PİRİNÇ PİLAVI (1)",
+        "SÜTLÜ TATLI (1,3,4)"
+      ],
+      "salatbar": [
+        "PANCAR TURŞUSU (12)",
+        "HAVUÇ TARATOR (3,4)",
+        "HUMUS (1,8,14)",
+        "SÖĞÜŞ DİLİM (DOM-SALATALIK)",
+        "MERCİMEK KÖFTE (1,8,12)"
+      ]
+    }
+  },
+  "2025-11-28": {
+    "kahvalti": [
+      "BEYAZ PEYNİR(4)",
+      "SİYAH ZEYTİN/YEŞİL ZEYTİN",
+      "DOMATES/SALATALIK",
+      "LABNE PEYNİR (4)",
+      "HAŞLANMIŞ YUMURTA (3)",
+      "BAL",
+      "PATATES KIZARTMASI (1)"
+    ],
+    "aksam": {
+      "ana_menu": [
+        "MERCİMEK ÇORBASI (1,8)",
+        "İSKENDER (1,3,4)",
+        "KARIŞIK SEBZE BUKETİ (1,3,4,8)",
+        "GAZLI İÇECEK"
+      ],
+      "salatbar": [
+        "KÖZ SOGAN SALATASI",
+        "MAYDANOZLU KÖZLENMİŞ PATLICAN SALATASI (12)",
+        "KIRMIZI LAHANA(12)",
+        "DOM.SOSLU KARIŞIK KIZART. (BİBER-PATATES) (1)",
+        "BAŞBAŞI SALATASI (1,7,8,10,11,12)"
+      ]
+    }
+  },
+  "2025-11-29": {
+    "kahvalti": [
+      "BEYAZ PEYNİR(4)",
+      "SİYAH ZEYTİN/YEŞİL ZEYTİN",
+      "DOMATES/SALATALIK",
+      "ÖRGÜ PEYNİR (4)",
+      "HELVA(1,4,14)",
+      "SİMİT (1,3,4,14)",
+      "SOSLU SOSİS TAVA"
+    ],
+    "aksam": {
+      "ana_menu": [
+        "DÜĞÜN ÇORBA (1,3,4,8)",
+        "GEMİCİ USULÜ KURU FASULYE (1,8)",
+        "TEL ŞEHRİYELİ PİRİNÇ PİLAVI (1)",
+        "CEVİZLİ SARI BURMA (1,3,4,7,8,11)"
+      ],
+      "salatbar": [
+        "HAYDARİ (4)",
+        "SUMAKLI SOĞAN",
+        "KARIŞIK TURŞU (12)",
+        "KIRMIZI LAHANA(12)",
+        "PATATES SALATASI (1,12)"
+      ]
+    }
+  },
+  "2025-11-30": {
+    "kahvalti": [
+      "BEYAZ PEYNİR(4)",
+      "SİYAH ZEYTİN/YEŞİL ZEYTİN",
+      "DOMATES/SALATALIK",
+      "KAŞAR PEYNİR (4)",
+      "VİŞNE REÇELİ (12)",
+      "TEREYAĞ(4)",
+      "SUCUKLU YUMURTA (3)"
+    ],
+    "aksam": {
+      "ana_menu": [
+        "HAVUÇLU BUĞDAY ÇORBASI (1,3,4)",
+        "ARPACIK SOĞANLI TAVUK YAHNİ (1,3,4,8)",
+        "SOSLU  MAKARNA (1)",
+        "MEYVE (PORTAKAL)"
+      ],
+      "salatbar": [
+        "DEREOTLU MISIRLI YEŞİL ZEYTİN SALATASI",
+        "YOĞURT (4)",
+        "MAYDANOZLU KÖZLENMİŞ KIRMIZI BİBER SALATASI (12)",
+        "ÇOBAN SALATASI",
+        "Z.YAĞLI TAZE FASULYE (1,8)"
+      ]
+    }
+  }
+}

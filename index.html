@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YTÜ Yurt Menüsü</title>
+    <style>
+        :root {
+            --primary: #0070f3; /* Vercel Mavisi */
+            --success-bg: #e6fffa;
+            --success-text: #2c7a7b;
+            --bg-color: #fafafa;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            color: #333;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            overflow: hidden;
+            border: 1px solid #eaeaea;
+        }
+
+        .header {
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #eaeaea;
+        }
+        
+        .header h1 { margin: 0; font-size: 1.5rem; color: #111; letter-spacing: -0.5px; }
+        .date-sub { font-size: 0.9rem; color: #666; margin-top: 5px; }
+
+        /* --- TAKVİM --- */
+        .calendar-wrapper { padding: 20px; border-bottom: 1px solid #eaeaea; }
+
+        .calendar-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .calendar-header button {
+            background: white;
+            border: 1px solid #eaeaea;
+            border-radius: 6px;
+            padding: 6px 12px;
+            cursor: pointer;
+            color: #555;
+            transition: all 0.2s;
+        }
+        .calendar-header button:hover { border-color: #000; color: #000; }
+
+        .calendar-grid {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 8px;
+            text-align: center;
+        }
+
+        .day-name { font-size: 0.75rem; color: #888; text-transform: uppercase; letter-spacing: 1px; }
+        
+        .day {
+            padding: 10px 0;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.95rem;
+            transition: all 0.2s;
+            position: relative;
+        }
+
+        .day:hover { background-color: #f5f5f5; }
+
+        /* Menü var işareti (Yeşil Nokta) */
+        .day.has-menu::after {
+            content: '';
+            display: block;
+            width: 5px;
+            height: 5px;
+            background-color: #10b981;
+            border-radius: 50%;
+            margin: 2px auto 0;
+        }
+
+        .day.selected {
+            background-color: #000 !important;
+            color: white !important;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        .day.selected::after { background-color: white; }
+
+        .day.empty { cursor: default; background: none; }
+
+        /* --- MENÜ KARTLARI --- */
+        #menuContent { padding: 20px; min-height: 200px; }
+
+        .meal-card {
+            background: #fff;
+            border: 1px solid #eaeaea;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            animation: slideUp 0.3s ease-out;
+        }
+
+        .meal-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        ul { list-style: none; padding: 0; margin: 0; }
+        li { padding: 8px 0; border-bottom: 1px solid #f4f4f4; color: #444; font-size: 1rem; }
+        li:last-child { border-bottom: none; }
+        li strong { color: #000; }
+
+        .footer-note { font-size: 0.8rem; color: #999; text-align: center; margin-top: 10px; }
+
+        @keyframes slideUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>YTÜ Yurt Menüsü</h1>
+        <div id="selectedDateDisplay" class="date-sub">Yükleniyor...</div>
+    </div>
+
+    <div class="calendar-wrapper">
+        <div class="calendar-header">
+            <button onclick="changeMonth(-1)">←</button>
+            <span id="calendarMonthName"></span>
+            <button onclick="changeMonth(1)">→</button>
+        </div>
+        <div class="calendar-grid">
+            <div class="day-name">Pzt</div><div class="day-name">Sal</div><div class="day-name">Çar</div>
+            <div class="day-name">Per</div><div class="day-name">Cum</div><div class="day-name">Cmt</div><div class="day-name">Paz</div>
+        </div>
+        <div id="calendarDays" class="calendar-grid"></div>
+    </div>
+
+    <div id="menuContent"></div>
+    <div class="footer-note">Veriler İBB sitesinden alınmıştır.</div>
+</div>
+
+<script>
+    let currentDate = new Date();
+    let currentMonth = new Date();
+    let menuData = {};
+
+    async function loadMenu() {
+        try {
+            // Vercel'de bu dosya yan yana olacağı için sorunsuz okur
+            const response = await fetch('menu.json');
+            if (!response.ok) throw new Error("Dosya bulunamadı");
+            menuData = await response.json();
+            
+            renderCalendar();
+            renderMenu();
+        } catch (error) {
+            document.getElementById('menuContent').innerHTML = 
+                `<div style="text-align:center; padding:20px; color:#666;">
+                    Veri yüklenemedi. <br><small>menu.json dosyası eksik olabilir.</small>
+                </div>`;
+        }
+    }
+
+    function formatDateKey(date) {
+        const d = new Date(date);
+        const year = d.getFullYear();
+        const month = String(d.getMonth() + 1).padStart(2, '0');
+        const day = String(d.getDate()).padStart(2, '0');
+        return `${year}-${month}-${day}`;
+    }
+
+    function renderCalendar() {
+        const year = currentMonth.getFullYear();
+        const month = currentMonth.getMonth();
+        const monthNames = ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"];
+        document.getElementById('calendarMonthName').innerText = `${monthNames[month]} ${year}`;
+
+        const calendarDays = document.getElementById('calendarDays');
+        calendarDays.innerHTML = "";
+
+        const firstDayOfMonth = new Date(year, month, 1).getDay();
+        const daysInMonth = new Date(year, month + 1, 0).getDate();
+        let startDay = firstDayOfMonth === 0 ? 6 : firstDayOfMonth - 1;
+
+        for (let i = 0; i < startDay; i++) {
+            const div = document.createElement('div');
+            div.className = 'day empty';
+            calendarDays.appendChild(div);
+        }
+
+        for (let day = 1; day <= daysInMonth; day++) {
+            const div = document.createElement('div');
+            div.innerText = day;
+            div.className = 'day';
+            
+            const checkDate = new Date(year, month, day);
+            const dateKey = formatDateKey(checkDate);
+
+            if (menuData[dateKey]) div.classList.add('has-menu');
+            if (formatDateKey(currentDate) === dateKey) div.classList.add('selected');
+
+            div.onclick = () => {
+                currentDate = new Date(year, month, day);
+                renderCalendar();
+                renderMenu();
+            };
+            calendarDays.appendChild(div);
+        }
+    }
+
+    function renderMenu() {
+        const dateKey = formatDateKey(currentDate);
+        const options = { weekday: 'long', day: 'numeric', month: 'long' };
+        document.getElementById('selectedDateDisplay').innerText = currentDate.toLocaleDateString('tr-TR', options);
+        const contentDiv = document.getElementById('menuContent');
+        const dayMenu = menuData[dateKey];
+
+        if (!dayMenu) {
+            contentDiv.innerHTML = `<div style="text-align:center; padding:30px; color:#888;">Bu tarih için menü verisi yok.</div>`;
+            return;
+        }
+
+        let html = '';
+        if (dayMenu.kahvalti?.length > 0) {
+            html += `
+            <div class="meal-card">
+                <div class="meal-title">🍳 Kahvaltı</div>
+                <ul>${dayMenu.kahvalti.map(i => `<li>${i}</li>`).join('')}</ul>
+            </div>`;
+        }
+        if (dayMenu.aksam) {
+            html += `
+            <div class="meal-card">
+                <div class="meal-title">🍲 Akşam Yemeği</div>
+                <ul>${dayMenu.aksam.ana_menu.map(i => `<li><strong>${i}</strong></li>`).join('')}</ul>
+                <div style="margin-top:15px; font-size:0.85rem; color:#666; background:#f9f9f9; padding:10px; border-radius:6px;">
+                    <strong>🥗 Yan Ürünler:</strong> ${dayMenu.aksam.salatbar.join(', ')}
+                </div>
+            </div>`;
+        }
+        contentDiv.innerHTML = html;
+    }
+
+    function changeMonth(offset) {
+        currentMonth.setMonth(currentMonth.getMonth() + offset);
+        renderCalendar();
+    }
+
+    loadMenu();
+</script>
+</body>
+</html>
